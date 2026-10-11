@@ -1,0 +1,181 @@
+incident_id,opened_at,service,team,severity,region,ack_minutes,resolve_minutes,status,summary
+INC-1144,2026-07-12 05:17,notifications,platform,SEV4,eu-west,419,3362,resolved,SMS delivery rate dropped
+INC-1119,2026-07-13 18:23,inventory,growth,SEV1,eu-west,4,68,resolved,Oversell alerts on high-velocity SKUs
+INC-1127,2026-07-13 22:23,notifications,platform,SEV3,ap-south,42,1028,resolved,SMS delivery rate dropped
+INC-1082,2026-07-14 01:35,notifications,platform,SEV3,ap-south,52,378,resolved,Email queue backlog growing
+INC-1111,2026-07-14 10:50,payments-api,payments,SEV3,eu-west,22,720,resolved,Elevated 5xx error rate on /charge endpoint
+INC-1037,2026-07-15 02:40,notifications,platform,SEV3,us-east,69,686,mitigated,Email queue backlog growing
+INC-1098,2026-07-15 06:17,inventory,growth,SEV4,eu-west,341,776,resolved,Warehouse feed delayed
+INC-1141,2026-07-15 09:38,cdn-edge,platform,SEV3,us-east,54,840,resolved,Cache hit ratio dropped in region
+INC-1174,2026-07-15 20:30,notifications,platform,SEV2,us-east,16,343,resolved,Push notification duplicates reported
+INC-1029,2026-07-16 01:37,database-primary,platform,SEV2,us-west,20,317,resolved,Slow query pileup on orders table
+INC-1024,2026-07-16 12:46,auth-service,identity,SEV2,us-east,15,469,resolved,Login failure spike for SSO users
+INC-1136,2026-07-17 04:17,search,platform,SEV3,eu-west,94,1416,resolved,Index rebuild stalled
+INC-1045,2026-07-17 08:22,notifications,platform,SEV3,ap-south,97,1163,resolved,Push notification duplicates reported
+INC-1102,2026-07-17 08:49,search,platform,SEV3,eu-west,116,969,resolved,Index rebuild stalled
+INC-1020,2026-07-17 10:01,checkout,growth,SEV2,us-west,23,343,resolved,Cart abandonment spike correlated with errors
+INC-1165,2026-07-17 10:06,database-primary,platform,SEV3,eu-west,86,911,resolved,Slow query pileup on orders table
+INC-1159,2026-07-17 15:28,inventory,growth,SEV3,eu-west,95,740,resolved,Oversell alerts on high-velocity SKUs
+INC-1030,2026-07-17 19:04,search,platform,SEV2,ap-south,26,180,resolved,Index rebuild stalled
+INC-1108,2026-07-18 15:50,search,platform,SEV4,ap-south,195,1626,resolved,Autocomplete latency p99 breached
+INC-1033,2026-07-18 17:13,auth-service,identity,SEV1,us-west,10,112,resolved,Login failure spike for SSO users
+INC-1089,2026-07-18 21:14,inventory,growth,SEV4,us-west,195,3466,resolved,Warehouse feed delayed
+INC-1175,2026-07-19 05:17,notifications,platform,SEV4,us-west,290,3948,resolved,Email queue backlog growing
+INC-1092,2026-07-19 19:02,inventory,growth,SEV3,eu-west,70,780,mitigated,Stock sync job failing
+INC-1064,2026-07-19 20:27,payments-api,payments,SEV3,us-west,32,1065,resolved,Payment webhook delivery delays
+INC-1026,2026-07-20 07:10,payments-api,payments,SEV2,ap-south,18,308,resolved,Payment webhook delivery delays
+INC-1074,2026-07-20 08:56,checkout,growth,SEV3,ap-south,72,619,resolved,Promo code validation failing
+INC-1129,2026-07-20 21:13,inventory,growth,SEV4,us-east,388,2859,resolved,Oversell alerts on high-velocity SKUs
+INC-1023,2026-07-21 03:42,checkout,growth,SEV4,ap-south,280,1691,resolved,Promo code validation failing
+INC-1081,2026-07-21 06:18,notifications,platform,SEV4,us-west,176,1718,resolved,Push notification duplicates reported
+INC-1004,2026-07-21 11:54,cdn-edge,platform,SEV2,eu-west,16,369,resolved,TLS handshake failures spiking
+INC-1107,2026-07-21 14:06,database-primary,platform,SEV2,us-east,21,293,resolved,Connection pool exhaustion warnings
+INC-1070,2026-07-22 22:49,checkout,growth,SEV4,us-east,214,3722,resolved,Promo code validation failing
+INC-1046,2026-07-23 08:11,payments-api,payments,SEV3,us-east,89,663,resolved,Payment webhook delivery delays
+INC-1153,2026-07-23 12:01,notifications,platform,SEV3,ap-south,56,471,resolved,SMS delivery rate dropped
+INC-1100,2026-07-23 14:07,checkout,growth,SEV3,ap-south,97,435,resolved,Checkout page load time regression
+INC-1091,2026-07-24 14:44,inventory,growth,SEV4,ap-south,215,3106,resolved,Warehouse feed delayed
+INC-1132,2026-07-25 00:22,payments-api,payments,SEV3,eu-west,116,607,mitigated,Payment webhook delivery delays
+INC-1151,2026-07-25 12:34,search,platform,SEV4,eu-west,420,1182,resolved,Index rebuild stalled
+INC-1167,2026-07-25 19:45,cdn-edge,platform,SEV3,ap-south,25,754,resolved,Edge 503s during config push
+INC-1010,2026-07-27 08:08,inventory,growth,SEV3,eu-west,46,1269,resolved,Oversell alerts on high-velocity SKUs
+INC-1147,2026-07-28 05:48,payments-api,payments,SEV3,us-east,94,221,resolved,Increased latency on refund processing
+INC-1028,2026-07-28 06:18,inventory,growth,SEV4,us-east,171,4207,resolved,Warehouse feed delayed
+INC-1095,2026-07-29 10:26,auth-service,identity,SEV3,eu-west,103,1134,resolved,Token refresh errors above threshold
+INC-1014,2026-07-29 14:00,cdn-edge,platform,SEV2,eu-west,28,428,resolved,Cache hit ratio dropped in region
+INC-1008,2026-07-29 14:24,checkout,growth,SEV3,us-west,49,1430,resolved,Cart abandonment spike correlated with errors
+INC-1043,2026-07-29 22:06,notifications,platform,SEV4,us-east,255,3812,resolved,Email queue backlog growing
+INC-1003,2026-07-29 22:27,payments-api,payments,SEV3,us-west,58,689,resolved,Payment webhook delivery delays
+INC-1038,2026-07-29 23:28,notifications,platform,SEV3,us-east,85,995,resolved,Push notification duplicates reported
+INC-1063,2026-07-30 14:58,cdn-edge,platform,SEV3,us-east,31,1394,resolved,TLS handshake failures spiking
+INC-1052,2026-07-30 21:05,inventory,growth,SEV3,eu-west,51,1175,resolved,Stock sync job failing
+INC-1042,2026-07-31 23:59,payments-api,payments,SEV4,ap-south,230,3444,resolved,Increased latency on refund processing
+INC-1094,2026-08-01 18:27,notifications,platform,SEV3,us-east,96,1127,resolved,SMS delivery rate dropped
+INC-1053,2026-08-03 04:01,checkout,growth,SEV3,ap-south,20,621,resolved,Cart abandonment spike correlated with errors
+INC-1150,2026-08-05 04:48,notifications,platform,SEV1,eu-west,6,119,resolved,SMS delivery rate dropped
+INC-1142,2026-08-06 03:22,inventory,growth,SEV2,us-east,22,248,resolved,Warehouse feed delayed
+INC-1021,2026-08-07 02:57,payments-api,payments,SEV2,us-east,6,229,resolved,Payment webhook delivery delays
+INC-1002,2026-08-07 16:38,checkout,growth,SEV1,ap-south,2,95,resolved,Promo code validation failing
+INC-1172,2026-08-07 17:15,inventory,growth,SEV3,us-west,54,1080,resolved,Warehouse feed delayed
+INC-1110,2026-08-07 23:05,notifications,platform,SEV3,us-east,70,321,resolved,Push notification duplicates reported
+INC-1067,2026-08-08 04:30,search,platform,SEV4,us-west,402,708,resolved,Autocomplete latency p99 breached
+INC-1032,2026-08-08 08:25,database-primary,platform,SEV3,ap-south,31,734,resolved,Replication lag above threshold
+INC-1180,2026-08-08 13:40,payments-api,payments,SEV3,ap-south,116,1395,resolved,Payment webhook delivery delays
+INC-1085,2026-08-09 03:35,auth-service,identity,SEV4,us-west,451,1944,resolved,Token refresh errors above threshold
+INC-1154,2026-08-09 13:37,auth-service,identity,SEV2,us-east,17,328,resolved,Token refresh errors above threshold
+INC-1090,2026-08-12 04:04,search,platform,SEV3,eu-west,22,459,resolved,Index rebuild stalled
+INC-1001,2026-08-13 07:14,payments-api,payments,SEV3,us-east,32,329,resolved,Elevated 5xx error rate on /charge endpoint
+INC-1034,2026-08-14 05:28,database-primary,platform,SEV4,eu-west,338,3121,resolved,Slow query pileup on orders table
+INC-1173,2026-08-14 12:32,inventory,growth,SEV4,us-west,330,1954,resolved,Warehouse feed delayed
+INC-1036,2026-08-14 19:13,notifications,platform,SEV3,us-west,106,822,resolved,SMS delivery rate dropped
+INC-1114,2026-08-14 21:34,inventory,growth,SEV1,ap-south,4,63,resolved,Warehouse feed delayed
+INC-1103,2026-08-14 23:19,payments-api,payments,SEV3,ap-south,90,1307,resolved,Payment webhook delivery delays
+INC-1006,2026-08-15 02:54,checkout,growth,SEV2,ap-south,12,111,resolved,Promo code validation failing
+INC-1125,2026-08-16 15:07,payments-api,payments,SEV2,us-west,8,180,resolved,Payment webhook delivery delays
+INC-1086,2026-08-16 18:27,inventory,growth,SEV3,us-east,54,1284,resolved,Warehouse feed delayed
+INC-1019,2026-08-17 12:42,checkout,growth,SEV4,ap-south,392,1769,resolved,Checkout page load time regression
+INC-1009,2026-08-18 12:17,payments-api,payments,SEV3,eu-west,23,552,resolved,Payment webhook delivery delays
+INC-1059,2026-08-18 17:05,database-primary,platform,SEV3,us-west,32,428,resolved,Replication lag above threshold
+INC-1109,2026-08-18 20:45,cdn-edge,platform,SEV4,us-east,448,2238,resolved,Cache hit ratio dropped in region
+INC-1065,2026-08-19 10:48,inventory,growth,SEV3,ap-south,63,689,resolved,Stock sync job failing
+INC-1166,2026-08-20 02:37,search,platform,SEV4,eu-west,399,819,resolved,Index rebuild stalled
+INC-1155,2026-08-20 05:04,checkout,growth,SEV4,us-east,321,2833,resolved,Cart abandonment spike correlated with errors
+INC-1104,2026-08-20 17:48,database-primary,platform,SEV3,ap-south,84,892,resolved,Replication lag above threshold
+INC-1121,2026-08-21 03:29,notifications,platform,SEV4,us-west,98,816,resolved,Push notification duplicates reported
+INC-1066,2026-08-22 07:41,payments-api,payments,SEV3,us-east,23,202,resolved,Elevated 5xx error rate on /charge endpoint
+INC-1044,2026-08-22 09:52,inventory,growth,SEV3,us-west,116,586,mitigated,Stock sync job failing
+INC-1156,2026-08-22 23:52,database-primary,platform,SEV4,us-west,390,3578,resolved,Replication lag above threshold
+INC-1040,2026-08-23 06:43,payments-api,payments,SEV4,us-east,187,2971,resolved,Increased latency on refund processing
+INC-1079,2026-08-23 22:29,database-primary,platform,SEV3,eu-west,49,747,resolved,Slow query pileup on orders table
+INC-1011,2026-08-24 07:08,cdn-edge,platform,SEV4,us-east,320,2261,resolved,Cache hit ratio dropped in region
+INC-1164,2026-08-24 11:58,search,platform,SEV3,ap-south,51,913,resolved,Index rebuild stalled
+INC-1048,2026-08-24 13:04,checkout,growth,SEV3,eu-west,100,796,resolved,Cart abandonment spike correlated with errors
+INC-1177,2026-08-25 07:01,auth-service,identity,SEV3,eu-west,55,322,resolved,Login failure spike for SSO users
+INC-1007,2026-08-25 11:13,search,platform,SEV4,us-east,403,1333,resolved,Search relevance drop after deploy
+INC-1039,2026-08-25 18:35,payments-api,payments,SEV4,us-west,135,2000,resolved,Payment webhook delivery delays
+INC-1027,2026-08-26 00:24,search,platform,SEV4,ap-south,195,4035,resolved,Index rebuild stalled
+INC-1005,2026-08-26 02:35,auth-service,identity,SEV3,eu-west,52,1407,resolved,MFA push delivery degraded
+INC-1106,2026-08-27 21:50,cdn-edge,platform,SEV4,us-west,480,2910,resolved,Cache hit ratio dropped in region
+INC-1135,2026-08-29 13:43,inventory,growth,SEV2,ap-south,8,311,resolved,Stock sync job failing
+INC-1138,2026-08-29 13:46,inventory,growth,SEV3,ap-south,27,760,resolved,Oversell alerts on high-velocity SKUs
+INC-1084,2026-08-29 15:04,auth-service,identity,SEV2,us-east,23,382,resolved,MFA push delivery degraded
+INC-1088,2026-08-30 14:44,payments-api,payments,SEV2,eu-west,24,300,mitigated,Payment webhook delivery delays
+INC-1148,2026-08-31 08:13,inventory,growth,SEV3,us-east,111,1169,resolved,Stock sync job failing
+INC-1060,2026-08-31 13:21,auth-service,identity,SEV4,ap-south,337,2148,resolved,Token refresh errors above threshold
+INC-1101,2026-08-31 15:30,notifications,platform,SEV3,us-west,46,1055,resolved,Push notification duplicates reported
+INC-1025,2026-09-01 05:17,search,platform,SEV3,us-east,74,631,resolved,Index rebuild stalled
+INC-1055,2026-09-01 07:11,auth-service,identity,SEV4,ap-south,471,4163,resolved,Login failure spike for SSO users
+INC-1072,2026-09-02 11:40,auth-service,identity,SEV4,us-west,295,3137,resolved,MFA push delivery degraded
+INC-1051,2026-09-02 18:38,checkout,growth,SEV3,ap-south,98,779,resolved,Promo code validation failing
+INC-1047,2026-09-02 19:32,database-primary,platform,SEV3,us-west,29,908,resolved,Slow query pileup on orders table
+INC-1171,2026-09-03 01:26,search,platform,SEV2,us-west,16,406,resolved,Index rebuild stalled
+INC-1176,2026-09-04 11:59,checkout,growth,SEV4,us-east,73,1939,resolved,Checkout page load time regression
+INC-1096,2026-09-05 02:20,payments-api,payments,SEV4,us-east,189,1564,resolved,Payment webhook delivery delays
+INC-1152,2026-09-05 02:55,payments-api,payments,SEV2,ap-south,15,354,resolved,Increased latency on refund processing
+INC-1056,2026-09-05 04:51,auth-service,identity,SEV4,eu-west,297,2974,resolved,Token refresh errors above threshold
+INC-1146,2026-09-05 10:10,cdn-edge,platform,SEV3,eu-west,62,758,resolved,TLS handshake failures spiking
+INC-1160,2026-09-06 14:02,notifications,platform,SEV3,eu-west,22,875,resolved,Email queue backlog growing
+INC-1161,2026-09-06 18:35,cdn-edge,platform,SEV3,ap-south,116,204,resolved,TLS handshake failures spiking
+INC-1083,2026-09-08 14:21,inventory,growth,SEV3,eu-west,38,225,resolved,Oversell alerts on high-velocity SKUs
+INC-1169,2026-09-09 06:14,database-primary,platform,SEV4,us-east,130,874,resolved,Replication lag above threshold
+INC-1062,2026-09-09 07:17,checkout,growth,SEV3,us-east,70,1114,resolved,Promo code validation failing
+INC-1075,2026-09-10 10:11,payments-api,payments,SEV3,eu-west,77,554,resolved,Payment webhook delivery delays
+INC-1113,2026-09-10 18:09,checkout,growth,SEV3,eu-west,44,1064,resolved,Promo code validation failing
+INC-1134,2026-09-11 07:39,inventory,growth,SEV3,eu-west,20,1187,resolved,Stock sync job failing
+INC-1049,2026-09-11 09:42,notifications,platform,SEV4,ap-south,269,1576,resolved,Push notification duplicates reported
+INC-1137,2026-09-11 19:27,inventory,growth,SEV3,us-west,27,354,resolved,Stock sync job failing
+INC-1163,2026-09-11 20:11,auth-service,identity,SEV4,ap-south,80,1254,resolved,MFA push delivery degraded
+INC-1058,2026-09-13 15:40,notifications,platform,SEV4,ap-south,182,1364,resolved,SMS delivery rate dropped
+INC-1133,2026-09-14 03:47,cdn-edge,platform,SEV2,ap-south,7,303,resolved,TLS handshake failures spiking
+INC-1149,2026-09-14 21:19,inventory,growth,SEV3,ap-south,20,571,resolved,Stock sync job failing
+INC-1071,2026-09-15 13:42,database-primary,platform,SEV4,eu-west,249,522,mitigated,Connection pool exhaustion warnings
+INC-1080,2026-09-15 22:11,auth-service,identity,SEV3,ap-south,39,563,resolved,MFA push delivery degraded
+INC-1022,2026-09-16 04:46,checkout,growth,SEV3,ap-south,88,1300,resolved,Checkout page load time regression
+INC-1120,2026-09-16 11:33,search,platform,SEV2,us-west,21,199,resolved,Autocomplete latency p99 breached
+INC-1128,2026-09-16 20:22,database-primary,platform,SEV2,eu-west,6,263,resolved,Replication lag above threshold
+INC-1057,2026-09-17 14:57,cdn-edge,platform,SEV3,ap-south,35,1092,resolved,Cache hit ratio dropped in region
+INC-1179,2026-09-17 23:38,search,platform,SEV3,us-east,82,986,resolved,Search relevance drop after deploy
+INC-1076,2026-09-18 00:33,notifications,platform,SEV3,us-west,39,295,resolved,SMS delivery rate dropped
+INC-1140,2026-09-18 01:37,search,platform,SEV4,eu-west,347,2540,resolved,Autocomplete latency p99 breached
+INC-1122,2026-09-18 11:05,cdn-edge,platform,SEV3,us-east,116,928,resolved,Cache hit ratio dropped in region
+INC-1143,2026-09-18 19:39,cdn-edge,platform,SEV3,us-east,101,1436,resolved,TLS handshake failures spiking
+INC-1017,2026-09-19 02:05,checkout,growth,SEV3,us-east,108,1115,resolved,Promo code validation failing
+INC-1130,2026-09-19 06:04,search,platform,SEV3,us-west,112,1255,resolved,Search relevance drop after deploy
+INC-1145,2026-09-19 21:25,search,platform,SEV1,us-east,3,81,resolved,Index rebuild stalled
+INC-1112,2026-09-19 21:50,cdn-edge,platform,SEV3,us-west,38,468,resolved,Edge 503s during config push
+INC-1116,2026-09-20 09:44,database-primary,platform,SEV3,ap-south,52,164,resolved,Slow query pileup on orders table
+INC-1105,2026-09-20 12:14,checkout,growth,SEV4,us-east,457,1922,resolved,Checkout page load time regression
+INC-1061,2026-09-20 12:30,payments-api,payments,SEV3,eu-west,15,840,resolved,Payment webhook delivery delays
+INC-1069,2026-09-20 21:58,notifications,platform,SEV3,us-west,63,932,resolved,Push notification duplicates reported
+INC-1123,2026-09-21 12:52,notifications,platform,SEV3,us-east,96,880,resolved,SMS delivery rate dropped
+INC-1126,2026-09-22 23:46,cdn-edge,platform,SEV3,us-east,34,969,resolved,TLS handshake failures spiking
+INC-1131,2026-09-23 00:17,search,platform,SEV3,eu-west,33,386,resolved,Search relevance drop after deploy
+INC-1016,2026-09-23 10:31,payments-api,payments,SEV3,eu-west,17,349,resolved,Payment webhook delivery delays
+INC-1157,2026-09-24 04:48,search,platform,SEV3,us-west,112,274,resolved,Index rebuild stalled
+INC-1162,2026-09-24 15:32,database-primary,platform,SEV3,ap-south,34,246,resolved,Connection pool exhaustion warnings
+INC-1068,2026-09-24 19:47,search,platform,SEV4,us-west,427,709,resolved,Search relevance drop after deploy
+INC-1117,2026-09-24 23:31,payments-api,payments,SEV4,us-west,206,3417,resolved,Payment webhook delivery delays
+INC-1124,2026-09-25 07:41,database-primary,platform,SEV1,eu-west,3,163,resolved,Replication lag above threshold
+INC-1073,2026-09-25 17:49,notifications,platform,SEV3,ap-south,76,1072,resolved,Push notification duplicates reported
+INC-1031,2026-09-26 02:26,payments-api,payments,SEV3,eu-west,99,1315,resolved,Elevated 5xx error rate on /charge endpoint
+INC-1118,2026-09-26 08:43,checkout,growth,SEV3,us-east,111,400,resolved,Promo code validation failing
+INC-1041,2026-09-26 23:09,cdn-edge,platform,SEV4,us-west,181,3781,resolved,Cache hit ratio dropped in region
+INC-1087,2026-09-27 06:16,checkout,growth,SEV2,us-west,26,101,resolved,Promo code validation failing
+INC-1015,2026-09-27 09:53,auth-service,identity,SEV3,us-west,96,1159,resolved,Login failure spike for SSO users
+INC-1099,2026-09-27 19:51,payments-api,payments,SEV3,eu-west,45,444,resolved,Increased latency on refund processing
+INC-1168,2026-09-29 21:27,auth-service,identity,SEV4,us-east,320,1722,resolved,Login failure spike for SSO users
+INC-1035,2026-10-01 03:56,notifications,platform,SEV3,us-east,32,661,resolved,Push notification duplicates reported
+INC-1170,2026-10-01 10:56,payments-api,payments,SEV3,us-west,113,1385,resolved,Elevated 5xx error rate on /charge endpoint
+INC-1018,2026-10-01 15:35,search,platform,SEV4,ap-south,144,1325,resolved,Index rebuild stalled
+INC-1097,2026-10-01 17:29,payments-api,payments,SEV4,us-west,271,462,resolved,Increased latency on refund processing
+INC-1050,2026-10-02 12:43,cdn-edge,platform,SEV2,eu-west,28,149,resolved,Cache hit ratio dropped in region
+INC-1093,2026-10-03 08:36,payments-api,payments,SEV4,us-west,80,3365,resolved,Increased latency on refund processing
+INC-1012,2026-10-04 13:38,search,platform,SEV2,ap-south,7,257,resolved,Autocomplete latency p99 breached
+INC-1139,2026-10-04 15:04,search,platform,SEV3,us-east,26,294,resolved,Index rebuild stalled
+INC-1158,2026-10-04 18:41,inventory,growth,SEV3,eu-west,96,1399,resolved,Warehouse feed delayed
+INC-1013,2026-10-04 23:07,payments-api,payments,SEV3,eu-west,102,1219,resolved,Payment webhook delivery delays
+INC-1078,2026-10-05 07:19,cdn-edge,platform,SEV3,eu-west,99,1311,resolved,TLS handshake failures spiking
+INC-1115,2026-10-05 08:29,cdn-edge,platform,SEV3,ap-south,53,527,resolved,Cache hit ratio dropped in region
+INC-1077,2026-10-05 15:41,checkout,growth,SEV3,ap-south,106,1125,resolved,Cart abandonment spike correlated with errors
+INC-1178,2026-10-06 04:48,inventory,growth,SEV1,us-east,9,159,resolved,Stock sync job failing
+INC-1054,2026-10-06 12:31,checkout,growth,SEV3,us-west,66,619,resolved,Cart abandonment spike correlated with errors
