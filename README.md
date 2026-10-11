@@ -1,4 +1,7 @@
-# Incident Log Analyzer
+# Gen-AI-Mastering-Agentic-AI---week-1-vibe-coding-project-
+Week 1 Vibe coding project. A Streamlit app to analyze Incidents
+
+## Incident Log Analyzer
 
 A local Streamlit dashboard for incident volume, response performance, and executive reporting. The bundled `incident_log_sample.csv` loads automatically; upload a CSV in the sidebar to replace it. No API keys or external AI services are required.
 
